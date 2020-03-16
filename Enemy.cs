@@ -9,12 +9,15 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _timeStopEnemy;
     [SerializeField] private float _timeGoEnemy;
 
+    [SerializeField] private float _minTime;
+    [SerializeField] private float _maxTime;
+
     [SerializeField] private Transform _leftPoint;
     [SerializeField] private Transform _rightPoint;
 
     [SerializeField] private float _moveDirection;
     [SerializeField] private Rigidbody2D _rigitbody;
-    
+
     private Vector2 moveEnemy;
 
     private Vector2 _leftPointVector;
@@ -25,7 +28,7 @@ public class Enemy : MonoBehaviour
     {
         _rigitbody = GetComponent<Rigidbody2D>();
         _tempEnemySpeed = _enemySpeed;
-        _timeStopEnemy = Random.Range(5f, 10f);
+        _timeStopEnemy = Random.Range(_minTime, _maxTime);
     }
 
     void Update()
@@ -65,7 +68,7 @@ public class Enemy : MonoBehaviour
             if (_timeGoEnemy <= 0)
             {
                 _enemySpeed = _tempEnemySpeed;
-                _timeStopEnemy = _timeGoEnemy = Random.Range(5f, 10f);
+                _timeStopEnemy = _timeGoEnemy = Random.Range(_minTime, _maxTime);
             }
             _timeGoEnemy -= .1f;
         }
