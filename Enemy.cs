@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/*Движение персонажа (врага) по одной траектории, но он останавливается через заданное время "_timeStopEnemy"
+ и движется через заданое время "_timeGoEnemy"*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/*Контроллер игрока (движение, стрельба, бег (когда энергия полна), прыжки, движение камеры за игроком)
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
