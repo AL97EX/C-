@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//Уничтожение префаба через время
 using UnityEngine;
 
 public class DestroyPrefab : MonoBehaviour

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Смерть врага. Рагдольное падение врага. Замедление времени
+
 using System.Collections.Generic;
 using UnityEngine;
 

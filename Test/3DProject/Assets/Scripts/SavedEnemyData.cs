@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//Сохранение данных врага для восстановления
+using System.Collections;
 using UnityEngine;
 
 public class SavedEnemyData : MonoBehaviour
