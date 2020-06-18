@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 6c96093a493d8424eb5602753a253a2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1637043920244526507
+    second: Sweets-2D-Game-Items3_0
+  - first:
+      213: -7973190274967183430
+    second: Sweets-2D-Game-Items3_1
+  - first:
+      213: -4357952952333340447
+    second: Sweets-2D-Game-Items3_2
+  - first:
+      213: 7520923576945540626
+    second: Sweets-2D-Game-Items3_3
+  - first:
+      213: -2430431287697430377
+    second: Sweets-2D-Game-Items3_4
+  - first:
+      213: 7342339476282241184
+    second: Sweets-2D-Game-Items3_5
+  - first:
+      213: -390851314041123145
+    second: Sweets-2D-Game-Items3_6
+  - first:
+      213: -447611077355694081
+    second: Sweets-2D-Game-Items3_7
+  - first:
+      213: 3749589273931420813
+    second: Sweets-2D-Game-Items3_8
+  - first:
+      213: -5755826144731707096
+    second: Sweets-2D-Game-Items3_9
+  - first:
+      213: -6736661579352082906
+    second: Sweets-2D-Game-Items3_10
+  - first:
+      213: 5637458211007543385
+    second: Sweets-2D-Game-Items3_11
+  - first:
+      213: 3169637082660637180
+    second: Sweets-2D-Game-Items3_12
+  - first:
+      213: 9044803965744711178
+    second: Sweets-2D-Game-Items3_13
+  - first:
+      213: 8987062164717073405
+    second: Sweets-2D-Game-Items3_14
+  - first:
+      213: 7765329765466521957
+    second: Sweets-2D-Game-Items3_15
+  - first:
+      213: -8969070298792246019
+    second: Sweets-2D-Game-Items3_16
+  - first:
+      213: 1611210896930599166
+    second: Sweets-2D-Game-Items3_17
+  - first:
+      213: 4360083252149679923
+    second: Sweets-2D-Game-Items3_18
+  - first:
+      213: -3106006776422897850
+    second: Sweets-2D-Game-Items3_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 797
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552bc1c5a3d0849e0800000000000000
+      internalID: -1637043920244526507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 797
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5bfd40b9895190800000000000000
+      internalID: -7973190274967183430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 799
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07e4811e07583c0800000000000000
+      internalID: -4357952952333340447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 796
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ef2ba4520bf5860800000000000000
+      internalID: 7520923576945540626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 632
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798accdee9f554ed0800000000000000
+      internalID: -2430431287697430377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 633
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a071203ada35e560800000000000000
+      internalID: 7342339476282241184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 634
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be859afcca639af0800000000000000
+      internalID: -390851314041123145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_7
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 635
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71fa0c814c9c9f0800000000000000
+      internalID: -447611077355694081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 467
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d841c461497390430800000000000000
+      internalID: 3749589273931420813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 466
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8294c56fd923f10b0800000000000000
+      internalID: -5755826144731707096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 469
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62672b66cf19282a0800000000000000
+      internalID: -6736661579352082906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 470
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958b637df564c3e40800000000000000
+      internalID: 5637458211007543385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf984ea1220dcfb20800000000000000
+      internalID: 3169637082660637180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 303
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0602411949958d70800000000000000
+      internalID: 9044803965744711178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 304
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3705e5c6578bc70800000000000000
+      internalID: 8987062164717073405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_15
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 303
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561466a774ef3cb60800000000000000
+      internalID: 7765329765466521957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 138
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df44bfa5516778380800000000000000
+      internalID: -8969070298792246019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 138
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef079c136cb2c5610800000000000000
+      internalID: 1611210896930599166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 138
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337f28bfd90228c30800000000000000
+      internalID: 4360083252149679923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweets-2D-Game-Items3_19
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 138
+        width: 166
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6476b5d0b4f35e4d0800000000000000
+      internalID: -3106006776422897850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
