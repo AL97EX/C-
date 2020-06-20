@@ -62,8 +62,68 @@ TextureImporter:
   - first:
       213: -3106006776422897850
     second: Sweets-2D-Game-Items3_19
+  - first:
+      213: -3841001674730881611
+    second: Candies_0
+  - first:
+      213: -6225919897683978183
+    second: Candies_1
+  - first:
+      213: -4687705250885310434
+    second: Candies_2
+  - first:
+      213: -5040079780696577946
+    second: Candies_3
+  - first:
+      213: 648748083495534012
+    second: Candies_4
+  - first:
+      213: 7427526204996982723
+    second: Candies_5
+  - first:
+      213: -8520652032662254867
+    second: Candies_6
+  - first:
+      213: 7742376577968055563
+    second: Candies_7
+  - first:
+      213: -4841812876376977551
+    second: Candies_8
+  - first:
+      213: 5562964594640676780
+    second: Candies_9
+  - first:
+      213: -6097265694004274444
+    second: Candies_10
+  - first:
+      213: 6043242045119856887
+    second: Candies_11
+  - first:
+      213: -5019601292961156203
+    second: Candies_12
+  - first:
+      213: 5755099141432641874
+    second: Candies_13
+  - first:
+      213: -7445993539180134019
+    second: Candies_14
+  - first:
+      213: 9127637560183237482
+    second: Candies_15
+  - first:
+      213: 5544454844689592226
+    second: Candies_16
+  - first:
+      213: 5738474315247707708
+    second: Candies_17
+  - first:
+      213: -7650586125170174136
+    second: Candies_18
+  - first:
+      213: 1801093469259011967
+    second: Candies_19
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -117,6 +177,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -158,7 +219,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_0
+      name: Candies_0
       rect:
         serializedVersion: 2
         x: 15
@@ -172,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 552bc1c5a3d0849e0800000000000000
-      internalID: -1637043920244526507
+      spriteID: 5bd3cfbc35502bac0800000000000000
+      internalID: -3841001674730881611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_1
+      name: Candies_1
       rect:
         serializedVersion: 2
         x: 209
@@ -193,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf5bfd40b9895190800000000000000
-      internalID: -7973190274967183430
+      spriteID: 9389282e6d61999a0800000000000000
+      internalID: -6225919897683978183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_2
+      name: Candies_2
       rect:
         serializedVersion: 2
         x: 402
@@ -214,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e07e4811e07583c0800000000000000
-      internalID: -4357952952333340447
+      spriteID: e186f3d29ece1feb0800000000000000
+      internalID: -4687705250885310434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_3
+      name: Candies_3
       rect:
         serializedVersion: 2
         x: 597
@@ -235,14 +296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21ef2ba4520bf5860800000000000000
-      internalID: 7520923576945540626
+      spriteID: 668a3f7942a0e0ab0800000000000000
+      internalID: -5040079780696577946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_4
+      name: Candies_4
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 798accdee9f554ed0800000000000000
-      internalID: -2430431287697430377
+      spriteID: cbd7779d1f0d00900800000000000000
+      internalID: 648748083495534012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_5
+      name: Candies_5
       rect:
         serializedVersion: 2
         x: 209
@@ -277,14 +338,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a071203ada35e560800000000000000
-      internalID: 7342339476282241184
+      spriteID: 3c710c01bbfd31760800000000000000
+      internalID: 7427526204996982723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_6
+      name: Candies_6
       rect:
         serializedVersion: 2
         x: 405
@@ -298,14 +359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7be859afcca639af0800000000000000
-      internalID: -390851314041123145
+      spriteID: deac472ee1090c980800000000000000
+      internalID: -8520652032662254867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_7
+      name: Candies_7
       rect:
         serializedVersion: 2
         x: 596
@@ -319,14 +380,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff71fa0c814c9c9f0800000000000000
-      internalID: -447611077355694081
+      spriteID: b05271f0a72727b60800000000000000
+      internalID: 7742376577968055563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_8
+      name: Candies_8
       rect:
         serializedVersion: 2
         x: 16
@@ -340,14 +401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d841c461497390430800000000000000
-      internalID: 3749589273931420813
+      spriteID: 17f43aa87dc6eccb0800000000000000
+      internalID: -4841812876376977551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_9
+      name: Candies_9
       rect:
         serializedVersion: 2
         x: 208
@@ -361,14 +422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8294c56fd923f10b0800000000000000
-      internalID: -5755826144731707096
+      spriteID: ca7e1a133de933d40800000000000000
+      internalID: 5562964594640676780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_10
+      name: Candies_10
       rect:
         serializedVersion: 2
         x: 403
@@ -382,14 +443,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62672b66cf19282a0800000000000000
-      internalID: -6736661579352082906
+      spriteID: 4fa13bfe729226ba0800000000000000
+      internalID: -6097265694004274444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_11
+      name: Candies_11
       rect:
         serializedVersion: 2
         x: 596
@@ -403,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958b637df564c3e40800000000000000
-      internalID: 5637458211007543385
+      spriteID: 7f0031f1f98edd350800000000000000
+      internalID: 6043242045119856887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_12
+      name: Candies_12
       rect:
         serializedVersion: 2
         x: 17
@@ -424,14 +485,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf984ea1220dcfb20800000000000000
-      internalID: 3169637082660637180
+      spriteID: 59375f2183bc65ab0800000000000000
+      internalID: -5019601292961156203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_13
+      name: Candies_13
       rect:
         serializedVersion: 2
         x: 209
@@ -445,14 +506,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0602411949958d70800000000000000
-      internalID: 9044803965744711178
+      spriteID: 2598f346d283edf40800000000000000
+      internalID: 5755099141432641874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_14
+      name: Candies_14
       rect:
         serializedVersion: 2
         x: 392
@@ -466,14 +527,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3705e5c6578bc70800000000000000
-      internalID: 8987062164717073405
+      spriteID: d718051a3548aa890800000000000000
+      internalID: -7445993539180134019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_15
+      name: Candies_15
       rect:
         serializedVersion: 2
         x: 595
@@ -487,14 +548,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 561466a774ef3cb60800000000000000
-      internalID: 7765329765466521957
+      spriteID: a6b2c3d2002ebae70800000000000000
+      internalID: 9127637560183237482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_16
+      name: Candies_16
       rect:
         serializedVersion: 2
         x: 17
@@ -508,14 +569,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df44bfa5516778380800000000000000
-      internalID: -8969070298792246019
+      spriteID: 2afaae23e4cd1fc40800000000000000
+      internalID: 5544454844689592226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_17
+      name: Candies_17
       rect:
         serializedVersion: 2
         x: 210
@@ -529,14 +590,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef079c136cb2c5610800000000000000
-      internalID: 1611210896930599166
+      spriteID: c36ea096cf723af40800000000000000
+      internalID: 5738474315247707708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_18
+      name: Candies_18
       rect:
         serializedVersion: 2
         x: 394
@@ -550,14 +611,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 337f28bfd90228c30800000000000000
-      internalID: 4360083252149679923
+      spriteID: 84713b52478a3d590800000000000000
+      internalID: -7650586125170174136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sweets-2D-Game-Items3_19
+      name: Candies_19
       rect:
         serializedVersion: 2
         x: 597
@@ -571,8 +632,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6476b5d0b4f35e4d0800000000000000
-      internalID: -3106006776422897850
+      spriteID: f77957ab7f4cef810800000000000000
+      internalID: 1801093469259011967
       vertices: []
       indices: 
       edges: []
