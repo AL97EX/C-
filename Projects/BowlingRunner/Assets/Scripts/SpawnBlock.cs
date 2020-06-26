@@ -7,7 +7,7 @@ public class SpawnBlock : MonoBehaviour
     [SerializeField] private List<Transform> _blockPoints;
     [SerializeField] private float _minTimeToSpawn;
     [SerializeField] private float _maxTimeToSpawn;
-    [SerializeField] private GameObject _prefab;
+    [SerializeField] private List<GameObject> _prefabs;
     public float _timeToSpawn;
     public float _timerToSpawn;
 
@@ -20,7 +20,7 @@ public class SpawnBlock : MonoBehaviour
     {
         if (_timerToSpawn >= _timeToSpawn)
         {
-            Instantiate(_prefab, _blockPoints[Random.Range(0, _blockPoints.Count - 1)].position, Quaternion.identity);
+            Instantiate(_prefabs[Random.Range(0,_prefabs.Count)], _blockPoints[Random.Range(0, _blockPoints.Count - 1)].position, Quaternion.identity);
             _timeToSpawn = Random.Range(_minTimeToSpawn, _maxTimeToSpawn);
             _timerToSpawn = 0;
         }

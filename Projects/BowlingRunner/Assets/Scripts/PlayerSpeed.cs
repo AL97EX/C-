@@ -8,4 +8,5 @@ public class PlayerSpeed : ScriptableObject
     public float speed;
     public float maxSpeed;
     public float acceleration;
+    public float _stopTime;
 }

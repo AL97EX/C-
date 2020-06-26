@@ -1,24 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using TMPro;
+using System.Collections;
 
 public class WallScript : MonoBehaviour
 {
-    [SerializeField] CountBlocks _blockCount;
-    [SerializeField] SpawnBlock _spawnBlockScript;
-    [SerializeField] GameObject _bowlsPrefab;
-    [SerializeField] Transform _bowlsSpawn;
+    [SerializeField] PlayerSpeed _speed;
+    [SerializeField] private TMP_Text _winText;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Block")
+        if (other.tag == "Block" || other.tag == "Coin")
         {
             Destroy(other.gameObject);
-            _blockCount.COUNT_BLOCK_TO_BOWLS++;
-            if (_blockCount.count <= _blockCount.COUNT_BLOCK_TO_BOWLS)
-            {
-                Instantiate(_bowlsPrefab, _bowlsSpawn.position, Quaternion.identity);
-                _blockCount.COUNT_BLOCK_TO_BOWLS = 0;
-            }
+        }
+        else if (other.tag == "Bowl")
+        {
+            _winText.enabled = true;
+            _speed.speed = 0;
+            Time.timeScale = 0f;
+            Destroy(other.gameObject);
         }
     }
 }

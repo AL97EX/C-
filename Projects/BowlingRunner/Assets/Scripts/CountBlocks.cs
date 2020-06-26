@@ -7,5 +7,10 @@ public class CountBlocks : ScriptableObject
 {
     public int count;
 
-    public int COUNT_BLOCK_TO_BOWLS;//{ get; set; }
+    public int COUNT_BLOCK_TO_BOWLS;
+
+    [Header("Coin count")]
+    public float _new;
+    public float _old;
+    public float _total;
 }

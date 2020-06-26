@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: BlockCount
   m_EditorClassIdentifier: 
   count: 5
-  COUNT_BLOCK_TO_BOWLS: 4
+  COUNT_BLOCK_TO_BOWLS: 0
+  _new: 1
+  _old: 1
+  _total: 10

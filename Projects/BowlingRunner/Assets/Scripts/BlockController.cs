@@ -1,13 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using TMPro;
 
 public class BlockController : MonoBehaviour
 {
     [SerializeField] private PlayerSpeed _speed;
-    [SerializeField] private float _stopTime;
+    [SerializeField] private CountBlocks _count;
     float MoveDelta => _speed.speed * Time.deltaTime;
-    float StopTimeDelta => _stopTime * Time.deltaTime;
+    float StopTimeDelta => _speed._stopTime * Time.deltaTime;
     void Start()
     {
         
@@ -21,8 +20,16 @@ public class BlockController : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            _speed.speed = Mathf.Lerp(_speed.speed, 0, StopTimeDelta);
-            Destroy(gameObject,0.5f);
+            if (gameObject.tag == "Block")
+            {
+                _speed.speed = Mathf.Lerp(_speed.speed, 0, StopTimeDelta);
+                Destroy(gameObject, 0.5f);
+            }
+            else if (gameObject.tag == "Coin")
+            {
+                _count._new++;
+                Destroy(gameObject.transform.GetChild(1).gameObject);
+            }
         }
         
     }
