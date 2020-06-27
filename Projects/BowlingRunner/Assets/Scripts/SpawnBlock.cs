@@ -20,7 +20,7 @@ public class SpawnBlock : MonoBehaviour
     {
         if (_timerToSpawn >= _timeToSpawn)
         {
-            Instantiate(_prefabs[Random.Range(0,_prefabs.Count)], _blockPoints[Random.Range(0, _blockPoints.Count - 1)].position, Quaternion.identity);
+            Instantiate(_prefabs[Random.Range(0,_prefabs.Count)], _blockPoints[Random.Range(0, _blockPoints.Count)].position, Quaternion.identity);
             _timeToSpawn = Random.Range(_minTimeToSpawn, _maxTimeToSpawn);
             _timerToSpawn = 0;
         }

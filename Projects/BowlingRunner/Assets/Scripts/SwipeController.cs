@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 public class SwipeController : MonoBehaviour
 {
-    bool _isDragging, _isMobilePlatform;
-    Vector2 _tapPoint, _swipeDelta;
-    float _minSwipeDelta = 130;
+    public bool _isDragging, _isMobilePlatform;
+    public Vector2 _tapPoint, _swipeDelta;
+    public float _minSwipeDelta = 130;
 
     public enum SwipeType
     {

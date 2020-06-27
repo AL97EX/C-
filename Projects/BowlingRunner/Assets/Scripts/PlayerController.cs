@@ -43,4 +43,8 @@ public class PlayerController : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, _target, MoveDelta);
         transform.rotation = Quaternion.Euler(_rotateSpeed -= _speed.speed, 0, 0);
     }
+    private void OnDisable()
+    {
+        SwipeController.SwipeEvent -= CheckInput;
+    }
 }

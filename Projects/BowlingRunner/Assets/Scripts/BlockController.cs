@@ -5,6 +5,8 @@ public class BlockController : MonoBehaviour
 {
     [SerializeField] private PlayerSpeed _speed;
     [SerializeField] private CountBlocks _count;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private GameObject _starEffect;
     float MoveDelta => _speed.speed * Time.deltaTime;
     float StopTimeDelta => _speed._stopTime * Time.deltaTime;
     void Start()
@@ -27,6 +29,8 @@ public class BlockController : MonoBehaviour
             }
             else if (gameObject.tag == "Coin")
             {
+                Instantiate(_starEffect, transform.position, Quaternion.identity);
+                _audioSource.Play();
                 _count._new++;
                 Destroy(gameObject.transform.GetChild(1).gameObject);
             }
