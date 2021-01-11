@@ -54,9 +54,9 @@ public class PlayerController : Character
 
     void Rotate()
     {
-        if (xAxis != 0)
+        if (xAxis != 0 || zAxis != 0)
         {
-            rb.rotation = Quaternion.Euler(0, 0, angle * -xAxis);
+            rb.rotation = Quaternion.Euler(angle * zAxis, 0, angle * -xAxis);
         }
     }
 

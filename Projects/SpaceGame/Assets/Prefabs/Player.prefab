@@ -170,7 +170,7 @@ MonoBehaviour:
   bulletArray:
   - {fileID: 234111248129258568, guid: 092df63ed2472e1418d70622ba6db531, type: 3}
   bulletSpawn: {fileID: 1641745343429804173}
-  angle: 15
+  angle: 30
   audioSource: {fileID: 8918327284818456446}
   clip: {fileID: 8300000, guid: 98a3c95a6ae178f4b8249ae2b336832c, type: 3}
 --- !u!54 &5891765769304071544

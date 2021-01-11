@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 4885396623313670093}
-  force: 1.2
+  force: 0.5
   tumble: 2
 --- !u!54 &4885396623313670093
 Rigidbody:

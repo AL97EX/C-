@@ -101,6 +101,7 @@ MonoBehaviour:
   force: 0.5
   explosionAsteroidPrefab: {fileID: 3079560325291921613, guid: 5cdfe1193f2ff484ba0e4eba33418015, type: 3}
   explosionSpaceShipPrefab: {fileID: 6288742819096290640, guid: 18e3af3e89b579344ab7a5a69e25b8f7, type: 3}
+  score: {fileID: 11400000, guid: b2de1faf0c10f40448c7fb7490c9d960, type: 2}
 --- !u!65 &455777626552095693
 BoxCollider:
   m_ObjectHideFlags: 0
