@@ -6,6 +6,8 @@ public class BulletController : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float force;
+    [SerializeField] private GameObject explosionAsteroidPrefab;
+    [SerializeField] private GameObject explosionSpaceShipPrefab;
     void Start()
     {
         
@@ -20,6 +22,12 @@ public class BulletController : MonoBehaviour
     {
         if (collision.transform.tag == "Enemy")
         {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        else if (collision.transform.tag == "Asteroid")
+        {
+            Instantiate(explosionAsteroidPrefab, collision.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }

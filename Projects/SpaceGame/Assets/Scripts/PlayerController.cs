@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerController : Character
 {
     [SerializeField] private float angle;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
     private float MoveDelta => speed * Time.deltaTime;
     
-
     private Camera cam;
     private float xAxis;
     private float zAxis;
@@ -16,6 +17,9 @@ public class PlayerController : Character
     private float clampX_Max;
     private float clampZ_Min;
     private float clampZ_Max;
+
+    private float nexFire;
+    
     void Awake()
     {
         cam = Camera.main;
@@ -25,7 +29,6 @@ public class PlayerController : Character
         clampX_Max = cam.ScreenToWorldPoint(screenBoundary).x - .5f;
         clampZ_Min = cam.ScreenToWorldPoint(screenBoundary).z + .5f;
         clampZ_Max = -(cam.ScreenToWorldPoint(screenBoundary).z * 2);
-
     }
     private void Update()
     {
@@ -35,6 +38,8 @@ public class PlayerController : Character
     {
         Move();
         Rotate();
+
+        
     }
 
     protected override void Move()
@@ -57,8 +62,12 @@ public class PlayerController : Character
 
     protected override void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && Time.time > nexFire)
+        {
+            nexFire = fireRate + Time.time;
+            audioSource.PlayOneShot(clip);
             Instantiate(bulletArray[0], bulletSpawn.position, Quaternion.Euler(-90, 0, 0));
+        }
     }
 
 }

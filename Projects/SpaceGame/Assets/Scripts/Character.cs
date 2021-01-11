@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Character : MonoBehaviour
 {
+    [SerializeField] protected float fireRate;
     [SerializeField] protected Rigidbody rb;
     [SerializeField] protected float health;
     [SerializeField] protected float damage;
