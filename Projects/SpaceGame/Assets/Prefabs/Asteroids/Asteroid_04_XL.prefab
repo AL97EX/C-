@@ -99,6 +99,7 @@ MonoBehaviour:
   rb: {fileID: 4885396623313670093}
   force: 0.5
   tumble: 2
+  spaceShipExplosion: {fileID: 6288742819096290640, guid: 18e3af3e89b579344ab7a5a69e25b8f7, type: 3}
 --- !u!54 &4885396623313670093
 Rigidbody:
   m_ObjectHideFlags: 0

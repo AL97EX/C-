@@ -7,6 +7,7 @@ public class AsteroidController : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float force;
     [SerializeField] private float tumble;
+    [SerializeField] private GameObject spaceShipExplosion;
 
     private Vector3 randomRotate;
     void Start()
@@ -24,6 +25,7 @@ public class AsteroidController : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
+            Instantiate(spaceShipExplosion, collision.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }

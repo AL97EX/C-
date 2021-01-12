@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private Transform asteroidSpawner;
     [SerializeField] private GameObject[] listAsteroids;
-    [SerializeField] private Transform[] backgroundList;
+    [SerializeField] private Transform background;
     [SerializeField] private TextMeshProUGUI textScore;
     [SerializeField] private Score score;
 
@@ -19,8 +19,8 @@ public class GameController : MonoBehaviour
         ScreenBoundary();
         AsteroidSpawner();
         BackgroundScale();
-        ScoreView();
     }
+    
 
     private void UpdateScore()
     {
@@ -48,13 +48,12 @@ public class GameController : MonoBehaviour
 
     private void BackgroundScale()
     {
-        backgroundList[0].localScale = backgroundList[1].localScale = new Vector3(boundaryScreen.x * 2, -15, 1);
-        backgroundList[0].position = new Vector3(0, -3, 3);
-        backgroundList[1].position = new Vector3(0, -3, Mathf.Abs(backgroundList[0].position.z- backgroundList[0].localScale.y));
+        background.localScale = new Vector3(boundaryScreen.x * 2, 15, 1);
     }
 
     private void Start()
     {
+        ScoreView();
         StartCoroutine(spawnTimer(true, 1));
     }
 
